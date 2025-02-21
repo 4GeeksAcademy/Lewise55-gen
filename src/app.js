@@ -11,6 +11,10 @@ window.onload = function() {
   excuse();
 };
 
+const button = () => {
+  return excuse();
+}
+
 const excuse = () => {
   const actionArray = ['I was late', 'I never showed up', 'I had to call out', 'I did not answer', 'I left early', 'I did not finish'];
   const whoArray = ['kid', 'grandma', 'dog', 'cat', 'goldfish', 'neighbor', 'husband', 'wife', 'ex', 'mom', 'dad'];
@@ -29,3 +33,4 @@ const excuse = () => {
 
   console.log("excuse");
 }
+document.querySelector("#myButton").addEventListener("click", button);

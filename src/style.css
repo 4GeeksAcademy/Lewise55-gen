@@ -1,5 +1,9 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: black;
+    color: white;
+}
+#mybutton {
+    cursor: pointer;
 }
